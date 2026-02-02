@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 6 - HTML Tables</title>
+</head>
+<body>
+
+    <h1>Basic Table</h1>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>fiza iftikhar</td>
+            <td>10th</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>minahil zahid</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>saba zubair</td>
+            <td>10th</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+    <p>
+        The &lt;table&gt; tag creates the table. The &lt;tr&gt; tag is used for each table row.
+        The &lt;th&gt; tag is used for table headings, and the &lt;td&gt; tag is used for table data cells.
+    </p>
+
+    <h2>Question about incorrect use of &lt;th&gt;</h2>
+    <p>
+        Why is it wrong to use the &lt;th&gt; tag for all rows just because it looks bold, and when should
+        the &lt;th&gt; tag actually be used?
+    </p>
+    <p>
+        This thinking is wrong because the &lt;th&gt; tag is not for styling but for meaning. It should only
+        be used for headings of rows or columns, not for normal data. Using it incorrectly can confuse
+        screen readers and reduce accessibility.
+    </p>
+
+    <h2>Table with Caption and Column Headings</h2>
+
+    <table border="1">
+        <caption>Student Marks Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Aqsa Majid</td>
+            <td>Math</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Nimra naseer</td>
+            <td>Computer Science</td>
+            <td>92</td>
+        </tr>
+    </table>
+
+    <p>
+        Captions are important because they describe what the table is about. By default, the caption
+        appears at the top of the table.
+    </p>
+
+    <h2>What is the difference between a table row and a table column?</h2>
+    <p>
+        A table row is created using the &lt;tr&gt; tag and runs horizontally across the table.
+        Columns are created using &lt;td&gt; and &lt;th&gt; tags inside each row and run vertically
+        through the table.
+    </p>
+
+    <h2>Student Records Table</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Aleezay shahbaz</td>
+            <td>10th</td>
+            <td>English</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>Mariyam usman</td>
+            <td>10th</td>
+            <td>Biology</td>
+            <td>89</td>
+        </tr>
+    </table>
+
+    <h2>Why are tables suitable for this data and why should they not be used for layout?</h2>
+    <p>
+        Tables are suitable for this data because student records are structured and organized into
+        rows and columns. This makes the data easy to read and understand. However, tables should not
+        be used for page layout because they make the code messy, reduce accessibility, and make
+        websites harder to maintain compared to modern layout methods like CSS.
+    </p>
+
+    <h2>How do table headings help screen readers and accessibility tools?</h2>
+    <p>
+        The &lt;th&gt; tag provides semantic meaning by identifying headings in the table. Screen readers
+        use this structure to understand relationships between data cells. This helps users with visual
+        impairments navigate and understand the table more easily.
+    </p>
+
+</body>
+</html>

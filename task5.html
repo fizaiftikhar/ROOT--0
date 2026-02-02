@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 5 - HTML Images</title>
+</head>
+<body>
+
+    <h1>Using the IMG Tag</h1>
+
+    <!-- Image with src, alt, and width -->
+    <img src="https://i.pinimg.com/736x/36/fc/26/36fc2635dbb77d55f5170ddb889a3c18.jpg" alt="Profile picture of a user" width="1500" height="1000">
+
+    <p>
+        The alt attribute is important because it provides text information about the image.
+        It helps users who cannot see images, such as screen reader users, and also displays
+        useful text if the image does not load.
+    </p>
+
+    <hr>
+
+    <h2>Correct Code for Given Folder Structure</h2>
+
+    <p>
+        Folder structure: Project → index.html → images → profile.jpg
+    </p>
+
+    <p>Correct HTML code:</p>
+
+    <p>
+        &lt;img src="images/profile.jpg" alt="Profile picture" width="200"&gt;
+    </p>
+
+    <p>
+        This path works because the image file is inside the "images" folder, which is located
+        in the same directory as index.html. The browser follows the folder path to find and
+        display the image correctly.
+    </p>
+
+    <hr>
+
+    <h2>What happens if an image file is missing or the path is wrong?</h2>
+    <p>
+        If an image file is missing or the path is incorrect, the browser does not display the image.
+        Instead, it shows a broken image icon. The alt text helps users by showing descriptive text
+        so they can understand what the image was supposed to represent.
+    </p>
+
+    <hr>
+
+    <h2>Why should images be used carefully on websites?</h2>
+    <p>
+        Images should be used carefully because large images can slow down page loading.
+        Too many images can also affect user experience by making a page cluttered.
+        Proper use of images and alt text is important for accessibility, especially for users
+        who rely on screen readers.
+    </p>
+
+    <hr>
+
+    <h2>Images in Real Websites</h2>
+
+    <h3>Where are images used?</h3>
+    <p>
+        Images are commonly used in profile pictures, product photos, blog posts, banners,
+        advertisements, and social media posts.
+    </p>
+
+    <h3>Why are images important for communication, not just design?</h3>
+    <p>
+        Images help explain ideas quickly, show emotions, and make information easier to understand.
+        For example, charts, diagrams, and photos often communicate better than long blocks of text.
+    </p>
+
+    <h3>When should an image be used instead of text, and when should text be preferred?</h3>
+    <p>
+        Images should be used when visual explanation is necessary, such as showing a product,
+        a diagram, or a real-life example. Text should be preferred when explaining detailed
+        information, instructions, or content that needs to be searchable and accessible.
+    </p>
+
+</body>
+</html>

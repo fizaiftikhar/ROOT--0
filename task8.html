@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter - 8 html extra markup</title>
+</head>
+<body>
+<h1>CHAPTER 8 - HTML EXTRA MARKUP</h1>
+
+<!-- QUESTION 1 -->
+<h2>Question 1: DOCTYPE</h2>
+<p>This document uses the correct HTML5 DOCTYPE declaration.</p>
+
+<!-- 
+DOCTYPE tells the browser which version of HTML is being used. 
+It helps the browser render the page correctly and prevents layout errors.
+-->
+
+<hr>
+
+<!-- QUESTION 2 -->
+<h2>Question 2: HTML Comments</h2>
+<h3>This heading is visible</h3>
+
+<!-- <p>This paragraph is commented out, so it will not appear in the browser.</p> -->
+
+<hr>
+
+<!-- QUESTION 3 -->
+<h2>Question 3: ID Attribute</h2>
+<p>This is paragraph one.</p>
+<p id="uniquePara">This is paragraph two with an ID.</p>
+<p>This is paragraph three.</p>
+
+<!-- 
+IDs must be unique because they are used to identify only one specific element on a page.
+-->
+
+<hr>
+
+<!-- QUESTION 4 -->
+<h2>Question 4: Class Attribute</h2>
+
+<p class="student">Student One</p>
+<p class="student">Student Two</p>
+<p class="student">Student Three</p>
+
+<!-- 
+Classes are reusable and can be applied to multiple elements.
+Difference:
+ID = unique (only one element)
+Class = reusable (many elements)
+-->
+
+<hr>
+
+<!-- QUESTION 5 -->
+<h2>Question 5: Block vs Inline Elements</h2>
+
+<div>This is a block element (DIV)</div>
+<p>This is another block element (P)</p>
+
+<span>This is inline element (SPAN)</span>
+<a href="#">This is another inline element (A)</a>
+
+<!-- 
+Block elements start on a new line and take full width.
+Inline elements stay in the same line and take only necessary space.
+-->
+
+<hr>
+
+<!-- QUESTION 6 -->
+<h2>Question 6: Grouping Content Using DIV</h2>
+
+<div>
+    <h3>Web Development</h3>
+    <p>Web development includes HTML, CSS, and JavaScript.</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</div>
+
+<!-- 
+DIV is used to group related content together for layout and styling purposes.
+-->
+
+<hr>
+
+<!-- QUESTION 7 -->
+<h2>Question 7: Inline Grouping Using SPAN</h2>
+
+<p>I am learning <span>HTML</span> for web development.</p>
+
+<!-- 
+SPAN is inline because it does not start a new line.
+It is useful for styling or targeting small parts of text.
+-->
+
+<hr>
+
+<!-- QUESTION 8 -->
+<h2>Question 8: Iframe - External Content</h2>
+
+<iframe src="https://www.youtube.com/shorts/RM485oUuOhg?feature=share"></iframe>
+
+<!-- 
+Iframe is used to embed external content such as websites or videos into a webpage.
+-->
+
+<hr>
+
+<!-- QUESTION 9 -->
+<h2>Question 9: Escape Characters</h2>
+
+<p>&lt; </p>
+<p>&gt; </p>
+<p>&amp; </p>
+<p>&quot; </p>
+
+<hr>
+
+<!-- QUESTION 10 -->
+<h2>Question 10: Real-World Scenario Layout</h2>
+
+<div class="card">
+    <h3 id="mainHeading">Student Profile</h3>
+    <p>Name: <span class="highlight">FIZA</span></p>
+    <p>Course: <span class="highlight">Web Development</span></p>
+</div>
+
+<!-- 
+DIV is used for layout structure.
+SPAN is used for inline highlighting.
+CLASS is used to group similar elements.
+ID is used for unique identification.
+Comments explain the code.
+-->
+</body>
+</html>

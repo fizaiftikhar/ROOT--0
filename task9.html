@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9 - HTML Flash, Video and Audio</title>
+</head>
+<body>
+
+<h1>CHAPTER 9 - HTML FLASH, VIDEO AND AUDIO</h1>
+
+<!-- QUESTION 1 -->
+<h2>Question 1: Flash Movies</h2>
+
+<object data="movie.swf" width="300" height="200"></object>
+<embed src="movie.swf" width="300" height="200">
+
+<!-- 
+Flash is outdated because it was slow, insecure, and required extra plugins.
+Modern browsers no longer support Flash because HTML5 provides built-in video and audio without plugins.
+-->
+
+<hr>
+
+<!-- QUESTION 2 -->
+<h2>Question 2: HTML5 Video</h2>
+
+<video controls width="400" height="250">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- 
+The <video> element is better than Flash because it works without plugins, is faster, and is supported on all modern devices.
+-->
+
+<hr>
+
+<!-- QUESTION 3 -->
+<h2>Question 3: Multiple Video Sources</h2>
+
+<video controls width="400" height="250">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+
+<!-- 
+Multiple formats are used because different browsers support different video formats.
+This ensures better compatibility.
+-->
+
+<hr>
+
+<!-- QUESTION 4 -->
+<h2>Question 4: HTML5 Audio</h2>
+
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<!-- 
+Common uses of audio on websites include music players, podcasts, voice messages, and background sounds.
+-->
+
+<hr>
+
+<!-- QUESTION 5 -->
+<h2>Question 5: Autoplay & Loop</h2>
+
+<audio autoplay loop>
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 
+Autoplay can be bad for user experience because it can annoy users and consume data without permission.
+-->
+
+<hr>
+
+<!-- QUESTION 6 -->
+<h2>Question 6: Muted Attribute</h2>
+
+<video autoplay muted width="400" height="250">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- 
+Browsers allow muted autoplay because it does not disturb users.
+They block sound autoplay to prevent annoying experiences.
+-->
+
+<hr>
+
+<!-- QUESTION 7 -->
+<h2>Question 7: Controls vs No Controls</h2>
+
+<h3>With Controls:</h3>
+<video controls width="300">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<h3>Without Controls:</h3>
+<video width="300">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- 
+With controls: user can play, pause, adjust volume.
+Without controls: user cannot control playback.
+-->
+
+<hr>
+
+<!-- QUESTION 8 -->
+<h2>Question 8: Accessibility Awareness</h2>
+
+<video controls width="400">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- 
+Captions and transcripts help deaf users understand audio content and improve accessibility for everyone.
+-->
+
+<hr>
+
+<!-- QUESTION 9 -->
+<h2>Question 9: Flash vs HTML5</h2>
+
+<!-- 
+3 Reasons why Flash failed:
+1. Required plugins
+2. Security issues
+3. Poor performance on mobile devices
+
+3 Reasons why HTML5 media succeeded:
+1. Built-in browser support
+2. No plugins required
+3. Better performance and accessibility
+-->
+
+<hr>
+
+<!-- QUESTION 10 -->
+<h2>Question 10: Real-World Scenario</h2>
+
+<div>
+    <h3>Media Section</h3>
+
+    <p>Educational Video:</p>
+    <video controls width="300">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <p>Podcast Audio:</p>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<!-- 
+This section shows real-world usage of video and audio with clean structure and proper comments.
+-->
+</body>
+</html>
